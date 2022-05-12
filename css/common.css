@@ -5,10 +5,8 @@
 font-family: 'Philosopher', sans-serif; */
 
 body {
-    font-family: "Noto Sans KR";
-}
-header {
     background-color: #fffef2;
+    font-family: "Noto Sans KR";
 }
 
 .inner {
@@ -156,6 +154,10 @@ header {
     cursor: pointer;
 }
 
+.header-bottom #allMenuBtn:hover ~ .allmenu-area {
+    display: block;
+}
+
 .gnb {
     float: left;
     margin-left: 264px;
@@ -249,9 +251,6 @@ header {
 }
 
 /* 푸터 */
-footer {
-    background-color: #fffef2;
-}
 .footer-top {
     padding-top: 61px;
 }
@@ -390,6 +389,7 @@ footer {
     bottom: 190px;
     width: 115px;
     height: 115px;
+    display: none; /* live-chat display:none; */
 }
 
 .live-chat-btn {
@@ -408,7 +408,7 @@ footer {
     width: 295px;
     height: 350px;
     border: 1px solid #464646;
-    background-color: #fffef2;
+    background-color: #fffef2; /* 지워도 되나..? */
 }
 
 .chatbox .chat-top-area {

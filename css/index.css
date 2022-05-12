@@ -1,0 +1,272 @@
+/* 메인 */
+/* 메인배너 */
+.mainbanner {
+    height: 653px;
+    background: url(../img/main/mainbanner1.png) no-repeat center center / cover;
+    text-indent: -9999px;
+    font-size: 0;
+}
+
+/* 신제품 */
+.product-new h3 {
+    font-family: "Philosopher", serif;
+    font-size: 40px;
+    line-height: 45px;
+    color: #464646;
+    font-weight: 700;
+    margin: 109px auto 59px;
+    width: 170px;
+}
+
+.new-item-list li {
+    float: left;
+    margin-right: 20px;
+    width: 224px;
+}
+
+.new-item-list li:last-of-type {
+    margin-right: 0;
+}
+
+.new-item-list li p {
+    text-align: center;
+    color: #333;
+}
+
+.new-item-list .new-item-category {
+    margin-top: 17px;
+    font-size: 12px;
+}
+
+.new-item-list .new-item-name {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.new-item-list .new-item-price {
+    font-size: 12px;
+    line-height: 21px;
+    margin-bottom: 95px;
+    color: #666;
+}
+
+/* 베스트 */
+.product-best {
+    background-color: #465a4f;
+    color: #fff;
+}
+
+.product-best h3 {
+    font-family: "Philosopher", serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    padding: 109px 0 59px;
+    margin: auto;
+    width: 340px;
+}
+
+.best-item-list li {
+    float: left;
+    margin-right: 26px;
+}
+
+.best-item-list li:last-child {
+    margin-right: 0;
+}
+
+.best-item-list li dl {
+    color: #fffef2;
+    width: 187px;
+    text-align: center;
+    margin: auto;
+}
+
+.best-item-list .best-item-name {
+    margin-top: 17px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.best-item-list .best-item-price {
+    font-size: 12px;
+    line-height: 21px;
+}
+
+.best-item-list .best-item-stars {
+    margin: 17px auto 95px;
+    font-size: 0;
+    background: url(../img/main/star.png);
+    width: 65px;
+    height: 13px;
+}
+
+/* diff */
+
+.product-diff h3 {
+    color: #464646;
+    font-family: "Philosopher", serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    padding: 109px 0 59px;
+    margin: auto;
+    width: 534px;
+}
+
+.diff-list li {
+    width: 233px;
+    float: left;
+    margin-right: 89px;
+}
+
+.diff-list li:last-child {
+    margin-right: 0;
+}
+
+.diff-list p {
+    color: #666;
+    text-align: center;
+    margin-top: 55px;
+    margin-bottom: 82px;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+/* 스토어 */
+
+.store {
+    height: 655px;
+    background-color: #f8f6e5;
+    position: relative;
+}
+
+.store .right-bg {
+    position: absolute;
+    left: 50%;
+    top: 0;
+    height: 655px;
+    width: 50%;
+    background-color: #f3f2e9;
+}
+.store .inner {
+    z-index: 1000;
+    position: relative;
+}
+
+.store .store-left {
+    float: left;
+    width: 50%;
+    height: 655px;
+    padding-top: 128px;
+    padding-left: 37px; /* margin으로 주면 안됨 */
+    box-sizing: border-box;
+}
+
+.store .store-left h3 {
+    font-family: "Philosopher", serif;
+    font-size: 40px;
+    color: #464646;
+    font-weight: 700;
+    margin-bottom: 40px;
+}
+
+.store .store-left p:nth-of-type(1) {
+    font-size: 38px;
+    color: #333;
+    font-weight: 700;
+    margin-bottom: 30px;
+}
+.store .store-left p:nth-of-type(2) {
+    font-size: 18px;
+    color: #666;
+    line-height: 21px;
+    width: 350px;
+    margin-bottom: 54px;
+}
+.store .store-left p:nth-of-type(3) {
+    font-size: 21px;
+    line-height: 36px;
+    color: #666;
+    width: 450px;
+    margin-bottom: 54px;
+}
+
+.store .store-left .new-store-more {
+    width: 220px;
+    height: 60px;
+    font-size: 14px;
+    line-height: 60px;
+    display: block;
+    color: #fff;
+    background-color: #465a4f;
+    text-align: center;
+    margin-left: 146px;
+    margin-top: 79px;
+}
+
+.store .store-right {
+    float: left;
+    width: 50%;
+    height: 655px;
+    padding-left: 58px;
+    padding-top: 69px;
+    box-sizing: border-box;
+}
+
+.store .store-right .slide-control {
+    margin-top: 46px;
+    margin-left: 15px;
+}
+
+.store .store-right .slide-control button {
+    float: left;
+    text-indent: -9999px;
+    font-size: 0;
+    width: 49px;
+    height: 15px;
+}
+.store .store-right .slide-prev-btn {
+    background: url(../img/main/prev-arrow.png) no-repeat;
+    margin-right: 44px;
+}
+
+.store .store-right .slide-next-btn {
+    background: url(../img/main/next-arrow.png) no-repeat;
+}
+
+/* sns */
+
+.sns h3 {
+    font-family: "Philosopher", serif;
+    font-size: 40px;
+    line-height: 45px;
+    font-weight: 700;
+    padding: 109px 0 59px;
+    margin: auto;
+    width: 89px;
+}
+
+.instagram-list li {
+    float: left;
+    margin-right: 26px;
+}
+
+.instagram-list li:last-child {
+    margin-right: 0;
+}
+
+.instagram-list .txtbox {
+    color: #333;
+    text-align: center;
+    margin-top: 17px;
+    margin-bottom: 109px;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.comment {
+    background-color: #85918a;
+    padding: 190px 0 175px;
+    text-align: center;
+}
