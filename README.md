@@ -1,16 +1,14 @@
 # 07
-## ex.html
-![ex.html](https://user-images.githubusercontent.com/95092921/176811572-26fcb815-dd2d-4f01-92c0-66654ba5d634.png)
-```
-검색창 만들기 연습, width: 100%와 width:auto의 차이
-```
-## temp.html
-![temp.html](https://user-images.githubusercontent.com/95092921/176811566-8642b09f-80b3-4815-93a6-d2b68e344989.png)
-```
-이솝 홈페이지 header, footer
-```
 ## index.html
+[이솝](https://h-elio.github.io/07/)
 ![index.html](https://user-images.githubusercontent.com/95092921/176811570-704a1a9e-8060-4039-83c6-d0de8028049d.png)
 ```
-제플린 활용 이솝 홈페이지 클론코딩
+제플린을 활용하여 이솝 홈페이지 제작
 ```
+
+### 메뉴
+![gnb](https://user-images.githubusercontent.com/95092921/179375200-3234e58a-01d5-43d9-a0f7-35995665924c.png)
+
+
+### 제플린 화면
+![zeplin](https://user-images.githubusercontent.com/95092921/179375199-ac8babf2-000e-4f3e-b93b-0d5d685f4969.png)
